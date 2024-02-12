@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Netflix</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- navbar start -->
+    <div class="navbar">
+      <div class="navbar-wrapper">
+        <div class="logo-wrapper">
+          <h2 class="logo">NETFLİX</h2>
+        </div>
+        <div class="menu-container">
+          <ul class="menu-list">
+            <li class="items active">Ana Sayfa</li>
+            <li class="items">Filmler</li>
+            <li class="items">Diziler</li>
+            <li class="items">Listem</li>
+            <li class="items">Popüler</li>
+          </ul>
+        </div>
+
+        <div class="pp">
+          <img
+            class="img"
+            src="https://yt3.ggpht.com/yti/ADpuP3P7jkFV7xT39EQCMNQOpbb34uC2e3QQdSc-fw=s88-c-k-c0x00ffffff-no-rj-mo"
+            alt=""
+          />
+          <div class="profile-text-container">
+            <span class="profile-text">Hesabım</span>
+            <i class="fa-solid fa-caret-down"></i>
+          </div>
+          <label class="mode-cont">
+            <input id="mode-btn" type="checkbox" name="" id="">
+            <span>Dark mod</span>
+            <span>Açık mod</span>
+        </label>
+        </div>
+      </div>
+    </div>
+    <!-- navbar end -->
+
+    <!-- sidebar start -->
+    <div class="sidebar">
+      <i class="fa-solid fa-magnifying-glass"></i>
+      <i class="fa-solid fa-house"></i>
+      <i class="fa-solid fa-user-group"></i>
+      <i class="fa-solid fa-bookmark"></i>
+      <i class="fa-solid fa-hourglass-start"></i>
+      <i class="fa-solid fa-basket-shopping"></i>
+      <i class="fa-solid fa-gear"></i>
+    </div>
+    <!-- sidebar end -->
+
+    <!-- featured start -->
+
+    <div class="container">
+      <div class="content-wrapper">
+        <div class="featured-contents">
+          <img class="featured title" src="img/spiderman-title.png" alt="" />
+          <p class="featured-desc">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis ad
+            natus ratione necessitatibus modi quam dolor ullam consectetur
+            excepturi rem totam, earum nam molestias nulla quasi dolorem
+            assumenda facilis asperiores! Maiores, aliquid repellendus. Ratione
+            eaque tempore dignissimos fugiat facilis explicabo impedit iusto
+            illum vitae laudantium, aliquam eos temporibus quae animi.
+          </p>
+          <div class="featured-buttons">
+            <button class="play-button">
+              <i class="fa-solid fa-play"></i>
+              Oynat
+            </button>
+            <button class="info-button">
+              <i class="fa-solid fa-circle-info"></i>
+              Daha Fazla Bilgi
+            </button>
+          </div>
+        </div>
+      </div>
+      <!-- featured end -->
+
+      <!-- Filter Start -->
+      <div class="movie-list-filter">
+        <select>
+          <option>Aksiyon</option>
+          <option>Animasyon</option>
+          <option>Belgesel</option>
+          <option>Komedi</option>
+          <option>Gerilim</option>
+          <option>Bilim Kurgu</option>
+          <option>Korku</option>
+        </select>
+      </div>
+      <!-- Filter end -->
+
+      <!-- movie list start -->
+      <div class="movie-list-container">
+        <h1 class="movie-list-title">Popüler</h1>
+        <div class="movie-list-wrapper">
+          <ul class="movie-list">
+            <li class="movie-item">
+              <img class="movie-img" src="img/f1.jpg" alt="" />
+              <div class="movie-info">
+                <span class="movie-title">SPIDER-MAN</span>
+                <div class="movie-item-buttons">
+                    <i class="fa-regular fa-circle-play"></i>
+                    <i class="fa-solid fa-thumbs-up"></i>
+                    <i class="fa-solid fa-thumbs-down"></i>
+                    <i class="fa-solid fa-plus"></i>
+                </div>
+              </div>
+            </li>
+            <li class="movie-item">
+                <img class="movie-img" src="img/f2.jpg" alt="" />
+                <div class="movie-info">
+                  <span class="movie-titles">HULK</span>
+                  <div class="movie-item-buttons">
+                      <i class="fa-regular fa-circle-play"></i>
+                      <i class="fa-solid fa-thumbs-up"></i>
+                      <i class="fa-solid fa-thumbs-down"></i>
+                      <i class="fa-solid fa-plus"></i>
+                  </div>
+                </div>
+              </li>
+              <li class="movie-item">
+                <img class="movie-img" src="img/f3.jpg" alt="" />
+                <div class="movie-info">
+                  <span class="movie-titles">G.O.R.A</span>
+                  <div class="movie-item-buttons">
+                      <i class="fa-regular fa-circle-play"></i>
+                      <i class="fa-solid fa-thumbs-up"></i>
+                      <i class="fa-solid fa-thumbs-down"></i>
+                      <i class="fa-solid fa-plus"></i>
+                  </div>
+                </div>
+              </li>
+              <li class="movie-item">
+                <img class="movie-img" src="img/f4.jpg" alt="" />
+                <div class="movie-info">
+                  <span class="movie-titles">DAREDEVIL</span>
+                  <div class="movie-item-buttons">
+                      <i class="fa-regular fa-circle-play"></i>
+                      <i class="fa-solid fa-thumbs-up"></i>
+                      <i class="fa-solid fa-thumbs-down"></i>
+                      <i class="fa-solid fa-plus"></i>
+                  </div>
+                </div>
+              </li>
+              <li class="movie-item">
+                <img class="movie-img" src="img/1_JZx-A9UiqOy-scMch6uUGA.jpg" alt="" />
+                <div class="movie-info">
+                  <span class="movie-title">The Walking Dead</span>
+                  <div class="movie-item-buttons">
+                      <i class="fa-regular fa-circle-play"></i>
+                      <i class="fa-solid fa-thumbs-up"></i>
+                      <i class="fa-solid fa-thumbs-down"></i>
+                      <i class="fa-solid fa-plus"></i>
+                  </div>
+                </div>
+              </li>
+              <li class="movie-item">
+                <img class="movie-img" src="img/wi_800.jfif" alt="" />
+                <div class="movie-info">
+                  <span class="movie-titles">Birimiz Yalan Söylüyor</span>
+                  <div class="movie-item-buttons">
+                      <i class="fa-regular fa-circle-play"></i>
+                      <i class="fa-solid fa-thumbs-up"></i>
+                      <i class="fa-solid fa-thumbs-down"></i>
+                      <i class="fa-solid fa-plus"></i>
+                  </div>
+                </div>
+              </li>
+              <li class="movie-item">
+                <img class="movie-img" src="img/break.jpg" alt="" />
+                <div class="movie-info">
+                  <span class="movie-titles">Breaking Bad</span>
+                  <div class="movie-item-buttons">
+                      <i class="fa-regular fa-circle-play"></i>
+                      <i class="fa-solid fa-thumbs-up"></i>
+                      <i class="fa-solid fa-thumbs-down"></i>
+                      <i class="fa-solid fa-plus"></i>
+                  </div>
+                </div>
+              </li>
+              <li class="movie-item">
+                <img class="movie-img" src="img/rain.jpg" alt="" />
+                <div class="movie-info">
+                  <span class="movie-titles">The Rain</span>
+                  <div class="movie-item-buttons">
+                      <i class="fa-regular fa-circle-play"></i>
+                      <i class="fa-solid fa-thumbs-up"></i>
+                      <i class="fa-solid fa-thumbs-down"></i>
+                      <i class="fa-solid fa-plus"></i>
+                  </div>
+                </div>
+              </li>
+              <li class="movie-item">
+                <img class="movie-img" src="img/out.webp" alt="" />
+                <div class="movie-info">
+                  <span class="movie-titles">Outer Banks</span>
+                  <div class="movie-item-buttons">
+                      <i class="fa-regular fa-circle-play"></i>
+                      <i class="fa-solid fa-thumbs-up"></i>
+                      <i class="fa-solid fa-thumbs-down"></i>
+                      <i class="fa-solid fa-plus"></i>
+                  </div>
+                </div>
+              </li>
+              <li class="movie-item">
+                <img class="movie-img" src="img/aliv.jpg" alt="" />
+                <div class="movie-info">
+                  <span class="movie-titles">Alive</span>
+                  <div class="movie-item-buttons">
+                      <i class="fa-regular fa-circle-play"></i>
+                      <i class="fa-solid fa-thumbs-up"></i>
+                      <i class="fa-solid fa-thumbs-down"></i>
+                      <i class="fa-solid fa-plus"></i>
+                  </div>
+                </div>
+              </li>
+          </ul>
+          <i class="fa-solid fa-chevron-right arrow"></i>
+        </div>
+      </div>
+      <div class="movie-list-container">
+        <h1 class="movie-list-title">Gündemdekiler</h1>
+        <div class="movie-list-wrapper">
+          <ul class="movie-list">
+            <li class="movie-item">
+              <img class="movie-img" src="img/squid.jpg" alt="" />
+              <div class="movie-info">
+                <span class="movie-titles">Squid Game</span>
+                <div class="movie-item-buttons">
+                    <i class="fa-regular fa-circle-play"></i>
+                    <i class="fa-solid fa-thumbs-up"></i>
+                    <i class="fa-solid fa-thumbs-down"></i>
+                    <i class="fa-solid fa-plus"></i>
+                </div>
+              </div>
+            </li>
+            <li class="movie-item">
+                <img class="movie-img" src="img/alice.avif" alt="" />
+                <div class="movie-info">
+                  <span class="movie-titles">Alice In Borderland</span>
+                  <div class="movie-item-buttons">
+                      <i class="fa-regular fa-circle-play"></i>
+                      <i class="fa-solid fa-thumbs-up"></i>
+                      <i class="fa-solid fa-thumbs-down"></i>
+                      <i class="fa-solid fa-plus"></i>
+                  </div>
+                </div>
+              </li>
+              <li class="movie-item">
+                <img class="movie-img" src="img/all.jpg" alt="" />
+                <div class="movie-info">
+                  <span class="movie-title">All Of Us Are Dead</span>
+                  <div class="movie-item-buttons">
+                      <i class="fa-regular fa-circle-play"></i>
+                      <i class="fa-solid fa-thumbs-up"></i>
+                      <i class="fa-solid fa-thumbs-down"></i>
+                      <i class="fa-solid fa-plus"></i>
+                  </div>
+                </div>
+              </li>
+              <li class="movie-item">
+                <img class="movie-img" src="img/prison.webp" alt="" />
+                <div class="movie-info">
+                  <span class="movie-title">Prison Break</span>
+                  <div class="movie-item-buttons">
+                      <i class="fa-regular fa-circle-play"></i>
+                      <i class="fa-solid fa-thumbs-up"></i>
+                      <i class="fa-solid fa-thumbs-down"></i>
+                      <i class="fa-solid fa-plus"></i>
+                  </div>
+                </div>
+              </li>
+              <li class="movie-item">
+                <img class="movie-img" src="img/string.jpg" alt="" />
+                <div class="movie-info">
+                  <span class="movie-title">Stranger Things</span>
+                  <div class="movie-item-buttons">
+                      <i class="fa-regular fa-circle-play"></i>
+                      <i class="fa-solid fa-thumbs-up"></i>
+                      <i class="fa-solid fa-thumbs-down"></i>
+                      <i class="fa-solid fa-plus"></i>
+                  </div>
+                </div>
+              </li>
+              <li class="movie-item">
+                <img class="movie-img" src="img/into.jfif" alt="" />
+                <div class="movie-info">
+                  <span class="movie-title">Into The Night</span>
+                  <div class="movie-item-buttons">
+                      <i class="fa-regular fa-circle-play"></i>
+                      <i class="fa-solid fa-thumbs-up"></i>
+                      <i class="fa-solid fa-thumbs-down"></i>
+                      <i class="fa-solid fa-plus"></i>
+                  </div>
+                </div>
+              </li>
+              <li class="movie-item">
+                <img class="movie-img" src="img/La-Casa-de-Papel.jpg" alt="" />
+                <div class="movie-info">
+                  <span class="movie-title">La Case De Papel</span>
+                  <div class="movie-item-buttons">
+                      <i class="fa-regular fa-circle-play"></i>
+                      <i class="fa-solid fa-thumbs-up"></i>
+                      <i class="fa-solid fa-thumbs-down"></i>
+                      <i class="fa-solid fa-plus"></i>
+                  </div>
+                </div>
+              </li>
+              <li class="movie-item">
+                <img class="movie-img" src="img/manifest.jpg" alt="" />
+                <div class="movie-info">
+                  <span class="movie-titles">Manifest</span>
+                  <div class="movie-item-buttons">
+                      <i class="fa-regular fa-circle-play"></i>
+                      <i class="fa-solid fa-thumbs-up"></i>
+                      <i class="fa-solid fa-thumbs-down"></i>
+                      <i class="fa-solid fa-plus"></i>
+                  </div>
+                </div>
+              </li>
+              <li class="movie-item">
+                <img class="movie-img" src="img/Elie.jpg" alt="" />
+                <div class="movie-info">
+                  <span class="movie-titles">Elite</span>
+                  <div class="movie-item-buttons">
+                      <i class="fa-regular fa-circle-play"></i>
+                      <i class="fa-solid fa-thumbs-up"></i>
+                      <i class="fa-solid fa-thumbs-down"></i>
+                      <i class="fa-solid fa-plus"></i>
+                  </div>
+                </div>
+              </li>
+              <li class="movie-item">
+                <img class="movie-img" src="img/I LAND.jfif" alt="" />
+                <div class="movie-info">
+                  <span class="movie-titles">The I Land</span>
+                  <div class="movie-item-buttons">
+                      <i class="fa-regular fa-circle-play"></i>
+                      <i class="fa-solid fa-thumbs-up"></i>
+                      <i class="fa-solid fa-thumbs-down"></i>
+                      <i class="fa-solid fa-plus"></i>
+                  </div>
+                </div>
+              </li>
+              <li class="movie-item">
+                <img class="movie-img" src="img/river.jpg" alt="" />
+                <div class="movie-info">
+                  <span class="movie-titles">Riverdale</span>
+                  <div class="movie-item-buttons">
+                      <i class="fa-regular fa-circle-play"></i>
+                      <i class="fa-solid fa-thumbs-up"></i>
+                      <i class="fa-solid fa-thumbs-down"></i>
+                      <i class="fa-solid fa-plus"></i>
+                  </div>
+                </div>
+              </li>
+              <li class="movie-item">
+                <img class="movie-img" src="img/lupin.jpg" alt="" />
+                <div class="movie-info">
+                  <span class="movie-titles">Lupin</span>
+                  <div class="movie-item-buttons">
+                      <i class="fa-regular fa-circle-play"></i>
+                      <i class="fa-solid fa-thumbs-up"></i>
+                      <i class="fa-solid fa-thumbs-down"></i>
+                      <i class="fa-solid fa-plus"></i>
+                  </div>
+                </div>
+              </li>
+              <li class="movie-item">
+                <img class="movie-img" src="img/göz.jpeg" alt="" />
+                <div class="movie-info">
+                  <span class="movie-titles">Gözcü</span>
+                  <div class="movie-item-buttons">
+                      <i class="fa-regular fa-circle-play"></i>
+                      <i class="fa-solid fa-thumbs-up"></i>
+                      <i class="fa-solid fa-thumbs-down"></i>
+                      <i class="fa-solid fa-plus"></i>
+                  </div>
+                </div>
+              </li>
+              
+          </ul>
+          <i class="fa-solid fa-chevron-right  arrow"></i>
+        </div>
+      </div>
+      <div class="movie-list-container">
+        <h1 class="movie-list-title">Senin İçin Önerilenler</h1>
+        <div class="movie-list-wrapper">
+          <ul class="movie-list">
+            <li class="movie-item">
+              <img class="movie-img" src="img/valla.jpg" alt="" />
+              <div class="movie-info">
+                <span class="movie-title">La Valla</span>
+                <div class="movie-item-buttons">
+                    <i class="fa-regular fa-circle-play"></i>
+                    <i class="fa-solid fa-thumbs-up"></i>
+                    <i class="fa-solid fa-thumbs-down"></i>
+                    <i class="fa-solid fa-plus"></i>
+                </div>
+              </div>
+            </li>
+            <li class="movie-item">
+                <img class="movie-img" src="img/f7.jpg" alt="" />
+                <div class="movie-info">
+                  <span class="movie-titles">Dark</span>
+                  <div class="movie-item-buttons">
+                      <i class="fa-regular fa-circle-play"></i>
+                      <i class="fa-solid fa-thumbs-up"></i>
+                      <i class="fa-solid fa-thumbs-down"></i>
+                      <i class="fa-solid fa-plus"></i>
+                  </div>
+                </div>
+              </li>
+              <li class="movie-item">
+                <img class="movie-img" src="img/black.jpg" alt="" />
+                <div class="movie-info">
+                  <span class="movie-titles">Black Summer</span>
+                  <div class="movie-item-buttons">
+                      <i class="fa-regular fa-circle-play"></i>
+                      <i class="fa-solid fa-thumbs-up"></i>
+                      <i class="fa-solid fa-thumbs-down"></i>
+                      <i class="fa-solid fa-plus"></i>
+                  </div>
+                </div>
+              </li>
+              <li class="movie-item">
+                <img class="movie-img" src="img/you.webp" alt="" />
+                <div class="movie-info">
+                  <span class="movie-titles">You</span>
+                  <div class="movie-item-buttons">
+                      <i class="fa-regular fa-circle-play"></i>
+                      <i class="fa-solid fa-thumbs-up"></i>
+                      <i class="fa-solid fa-thumbs-down"></i>
+                      <i class="fa-solid fa-plus"></i>
+                  </div>
+                </div>
+              </li>
+              <li class="movie-item">
+                <img class="movie-img" src="img/palt.jpg" alt="" />
+                <div class="movie-info">
+                  <span class="movie-titles">The Platform</span>
+                  <div class="movie-item-buttons">
+                      <i class="fa-regular fa-circle-play"></i>
+                      <i class="fa-solid fa-thumbs-up"></i>
+                      <i class="fa-solid fa-thumbs-down"></i>
+                      <i class="fa-solid fa-plus"></i>
+                  </div>
+                </div>
+              </li> <li class="movie-item">
+                <img class="movie-img" src="img/nokta.jfif" alt="" />
+                <div class="movie-info">
+                  <span class="movie-titles">Tehlikeli Nokta</span>
+                  <div class="movie-item-buttons">
+                      <i class="fa-regular fa-circle-play"></i>
+                      <i class="fa-solid fa-thumbs-up"></i>
+                      <i class="fa-solid fa-thumbs-down"></i>
+                      <i class="fa-solid fa-plus"></i>
+                  </div>
+                </div>
+              </li>
+            </li> <li class="movie-item">
+              <img class="movie-img" src="img/arınma.jpg" alt="" />
+              <div class="movie-info">
+                <span class="movie-titles">Arınma Gecesi: Anarşi</span>
+                <div class="movie-item-buttons">
+                    <i class="fa-regular fa-circle-play"></i>
+                    <i class="fa-solid fa-thumbs-up"></i>
+                    <i class="fa-solid fa-thumbs-down"></i>
+                    <i class="fa-solid fa-plus"></i>
+                </div>
+              </div>
+            </li>
+          </li> <li class="movie-item">
+            <img class="movie-img" src="img/mor.jfif" alt="" />
+            <div class="movie-info">
+              <span class="movie-titles">Mortel</span>
+              <div class="movie-item-buttons">
+                  <i class="fa-regular fa-circle-play"></i>
+                  <i class="fa-solid fa-thumbs-up"></i>
+                  <i class="fa-solid fa-thumbs-down"></i>
+                  <i class="fa-solid fa-plus"></i>
+              </div>
+            </div>
+          </li>
+        </li> <li class="movie-item">
+          <img class="movie-img" src="img/solo.jpg" alt="" />
+          <div class="movie-info">
+            <span class="movie-titles">Yalnız</span>
+            <div class="movie-item-buttons">
+                <i class="fa-regular fa-circle-play"></i>
+                <i class="fa-solid fa-thumbs-up"></i>
+                <i class="fa-solid fa-thumbs-down"></i>
+                <i class="fa-solid fa-plus"></i>
+            </div>
+          </div>
+        </li>
+      </li> <li class="movie-item">
+        <img class="movie-img" src="img/tek.webp" alt="" />
+        <div class="movie-info">
+          <span class="movie-titles">Tek Başına</span>
+          <div class="movie-item-buttons">
+              <i class="fa-regular fa-circle-play"></i>
+              <i class="fa-solid fa-thumbs-up"></i>
+              <i class="fa-solid fa-thumbs-down"></i>
+              <i class="fa-solid fa-plus"></i>
+          </div>
+        </div>
+      </li>
+    </li> <li class="movie-item">
+      <img class="movie-img" src="img/ceza.jfif" alt="" />
+      <div class="movie-info">
+        <span class="movie-titles">Ceza Kanunu</span>
+        <div class="movie-item-buttons">
+            <i class="fa-regular fa-circle-play"></i>
+            <i class="fa-solid fa-thumbs-up"></i>
+            <i class="fa-solid fa-thumbs-down"></i>
+            <i class="fa-solid fa-plus"></i>
+        </div>
+      </div>
+    </li>
+          </ul>
+          <i class="fa-solid fa-chevron-right  arrow"></i>
+        </div>
+      </div>
+    </div>
+    <script src="scripts.js"></script>
+  </body>
+</html>
